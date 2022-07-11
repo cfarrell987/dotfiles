@@ -78,7 +78,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo terraform tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,7 +112,9 @@ export GPG_TTY=$(tty)
 
 alias zshconfig="micro ~/.zshrc"
 alias home="cd ~"
-alias all="ls -la"
+alias dev="cd ~/Dev"
+alias dterra= "cd ~/Dev/passiv/infrastructure/terraform"
+
 #custom functions
 
 #Add, Commit, and push
