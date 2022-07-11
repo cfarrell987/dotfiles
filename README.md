@@ -1,6 +1,6 @@
-# zsh_config
+# dotfiles
 
-Enjoy my zsh config file!
+Enjoy my dotfiles!
 
 # requirements
 
@@ -9,3 +9,6 @@ Enjoy my zsh config file!
 3. [powerline-fonts](https://github.com/powerline/fonts)
 4. [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 5. [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+6. [tmux](https://github.com/tmux/tmux)
+7. [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible)
+8. [tpm](https://github.com/tmux-plugins/tpm)
