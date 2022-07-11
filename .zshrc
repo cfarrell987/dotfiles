@@ -112,7 +112,7 @@ export GPG_TTY=$(tty)
 
 alias zshconfig="micro ~/.zshrc"
 alias home="cd ~"
-
+alias all="ls -la"
 #custom functions
 
 #Add, Commit, and push
