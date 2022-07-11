@@ -12,3 +12,4 @@ Enjoy my dotfiles!
 6. [tmux](https://github.com/tmux/tmux)
 7. [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible)
 8. [tpm](https://github.com/tmux-plugins/tpm)
+9. [dracula-tmux](https://github.com/dracula/tmux)
