@@ -82,6 +82,10 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo terraform tmux)
 
 source $ZSH/oh-my-zsh.sh
 
+export WORKON_HOME=~/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -100,7 +104,6 @@ RPROMPT='%*'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 export GPG_TTY=$(tty)
-
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -114,13 +117,14 @@ alias zshconfig="micro ~/.zshrc"
 alias home="cd ~"
 alias dev="cd ~/Dev"
 alias dterra= "cd ~/Dev/passiv/infrastructure/terraform"
-
+alias wg-staging="wg-quick up staging"
 #custom functions
 
 #Add, Commit, and push
 function acp() {
+	message=\'"$@"\'
 	git add .
-	git commit -S -m "$1"
+	git commit -S -m "$message"
 	git push
 }
 
